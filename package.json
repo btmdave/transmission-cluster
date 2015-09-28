@@ -1,6 +1,6 @@
 {
   "name": "transmission-cluster",
-  "version": "1.5.7",
+  "version": "1.5.8",
   "description": "Redis-backed utorrent cluster in node.js for torrent downloads.",
   "keywords": [
     "transmission",
