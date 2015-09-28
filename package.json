@@ -1,0 +1,29 @@
+{
+  "name": "transmission-cluster",
+  "version": "1.5.0",
+  "description": "Redis-backed utorrent cluster in node.js for torrent downloads.",
+  "keywords": [
+    "transmission",
+    "torrent",
+    "bittorrent"
+  ],
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "async": "^1.4.2",
+    "debug": "^2.2.0",
+    "ioredis": "^1.7.5",
+    "lodash": "^3.10.1",
+    "moment": "^2.10.6",
+    "ms": "^0.7.1",
+    "parse-torrent": "^5.3.0",
+    "request": "^2.61.0"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^7.0.3"
+  }
+}
