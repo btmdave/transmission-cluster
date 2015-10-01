@@ -32,14 +32,14 @@ tc.add('', function(err, events) {
 
   events.on('complete', function(torrent) {
     console.log('complete');
-    uc.remove(torrent.hash, function(err, res) {
+    tc.remove(torrent.hash, function(err, res) {
 
     });
   });
 
   events.on('noseeds', function(torrent) {
     console.log('noseeds', torrent);
-    uc.remove(torrent.hash, function(err, res) {
+    tc.remove(torrent.hash, function(err, res) {
 
     });
   });
